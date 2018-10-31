@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView">
+            <connections>
+                <outlet property="subtitle" destination="hby-Ni-Bgd" id="fMM-kT-9ic"/>
+                <outlet property="title" destination="mkH-xd-cKj" id="hg8-X8-HVl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hby-Ni-Bgd">
+                    <rect key="frame" x="60" y="16" width="348" height="14.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkH-xd-cKj">
+                    <rect key="frame" x="60" y="-2" width="348" height="18"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BtnMenu" translatesAutoresizingMaskIntoConstraints="NO" id="XXR-S1-rNb">
+                    <rect key="frame" x="11" y="0.0" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="Hod-KL-arr"/>
+                        <constraint firstAttribute="height" constant="36" id="sRM-np-vTF"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hby-Ni-Bgd" firstAttribute="top" secondItem="mkH-xd-cKj" secondAttribute="bottom" id="Aej-Ud-iAE"/>
+                <constraint firstItem="mkH-xd-cKj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-2" id="AkD-Io-z8Z"/>
+                <constraint firstItem="XXR-S1-rNb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="11" id="GSI-zK-4cr"/>
+                <constraint firstAttribute="trailing" secondItem="mkH-xd-cKj" secondAttribute="trailing" id="I50-0x-r1L"/>
+                <constraint firstItem="mkH-xd-cKj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="X4l-lc-Njw"/>
+                <constraint firstItem="hby-Ni-Bgd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="aDQ-vu-Zad"/>
+                <constraint firstItem="XXR-S1-rNb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="idn-R0-6f2"/>
+                <constraint firstAttribute="trailing" secondItem="hby-Ni-Bgd" secondAttribute="trailing" id="pi6-y1-sGQ"/>
+                <constraint firstItem="mkH-xd-cKj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="zLq-RC-ZHq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="AkD-Io-z8Z"/>
+                    <exclude reference="X4l-lc-Njw"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="AkD-Io-z8Z"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="X4l-lc-Njw"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="X4l-lc-Njw"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="51" y="354.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BtnMenu" width="42" height="42"/>
+    </resources>
+</document>

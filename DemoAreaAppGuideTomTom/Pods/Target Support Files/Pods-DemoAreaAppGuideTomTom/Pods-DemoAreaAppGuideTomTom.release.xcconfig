@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps" "${PODS_ROOT}/TomTomOnlineUtils/TomTomOnlineUtils" "${PODS_ROOT}/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions" "${PODS_ROOT}/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting" "${PODS_ROOT}/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch" "${PODS_ROOT}/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreText" -framework "Foundation" -framework "OpenGLES" -framework "QuartzCore" -framework "TomTomOnlineSDKMaps" -framework "TomTomOnlineSDKMapsUIExtensions" -framework "TomTomOnlineSDKRouting" -framework "TomTomOnlineSDKSearch" -framework "TomTomOnlineSDKTraffic" -framework "TomTomOnlineUtils" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

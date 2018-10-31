@@ -1,0 +1,40 @@
+PODS:
+  - TomTomOnlineSDKMaps (2.3.54):
+    - TomTomOnlineUtils (= 2.3.54)
+  - TomTomOnlineSDKMapsUIExtensions (2.3.54):
+    - TomTomOnlineSDKMaps (= 2.3.54)
+  - TomTomOnlineSDKRouting (2.3.54):
+    - TomTomOnlineUtils (= 2.3.54)
+  - TomTomOnlineSDKSearch (2.3.54):
+    - TomTomOnlineUtils (= 2.3.54)
+  - TomTomOnlineSDKTraffic (2.3.54):
+    - TomTomOnlineUtils (= 2.3.54)
+  - TomTomOnlineUtils (2.3.54)
+
+DEPENDENCIES:
+  - TomTomOnlineSDKMaps
+  - TomTomOnlineSDKMapsUIExtensions
+  - TomTomOnlineSDKRouting
+  - TomTomOnlineSDKSearch
+  - TomTomOnlineSDKTraffic
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TomTomOnlineSDKMaps
+    - TomTomOnlineSDKMapsUIExtensions
+    - TomTomOnlineSDKRouting
+    - TomTomOnlineSDKSearch
+    - TomTomOnlineSDKTraffic
+    - TomTomOnlineUtils
+
+SPEC CHECKSUMS:
+  TomTomOnlineSDKMaps: cd915d50bbeaeb73389ecfb87179d2cf3c3c5c12
+  TomTomOnlineSDKMapsUIExtensions: b91292bdef1c69d8e2a6e66a2b7d46cba5f1a6f3
+  TomTomOnlineSDKRouting: 56ed9dd8627a3d66866fba76e12e099e6c8627b8
+  TomTomOnlineSDKSearch: 3f9d28a48557d1531758b0d3fd701ce27fa5ed8f
+  TomTomOnlineSDKTraffic: 9c730e7212f0b513caa019a4a213af6a7b9c7713
+  TomTomOnlineUtils: 94b7f086fc4d59ff565c9c72516655a4071328c2
+
+PODFILE CHECKSUM: 69cd33410947d1bb9eb6efc365f485acca1596fa
+
+COCOAPODS: 1.5.3

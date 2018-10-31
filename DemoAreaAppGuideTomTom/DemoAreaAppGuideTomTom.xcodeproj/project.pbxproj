@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A2323A2184D40B0086E26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A232392184D40B0086E26A /* AppDelegate.swift */; };
+		04A2323C2184D40B0086E26A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2323B2184D40B0086E26A /* ViewController.swift */; };
+		04A2323F2184D40B0086E26A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A2323D2184D40B0086E26A /* Main.storyboard */; };
+		04A232412184D4110086E26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A232402184D4110086E26A /* Assets.xcassets */; };
+		04A232442184D4110086E26A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A232422184D4110086E26A /* LaunchScreen.storyboard */; };
+		04A2324F2184D4110086E26A /* DemoAreaAppGuideTomTomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2324E2184D4110086E26A /* DemoAreaAppGuideTomTomTests.swift */; };
+		04A2325A2184D4110086E26A /* DemoAreaAppGuideTomTomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A232592184D4110086E26A /* DemoAreaAppGuideTomTomUITests.swift */; };
+		04A232682184D7280086E26A /* pingimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A232672184D7280086E26A /* pingimage.png */; };
+		04A2326A2185718E0086E26A /* if_Map_-_Location_Solid_Style_19_2216355.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A232692185718E0086E26A /* if_Map_-_Location_Solid_Style_19_2216355.png */; };
+		04A23274218788940086E26A /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A23272218788940086E26A /* LocationManager.m */; };
+		04A2327721878A270086E26A /* SearchAlongTheRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2327621878A270086E26A /* SearchAlongTheRouteViewController.m */; };
+		04A2327F21878B4E0086E26A /* ProgressUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2327B21878B4E0086E26A /* ProgressUtil.m */; };
+		04A2328021878B4E0086E26A /* FormatUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2327C21878B4E0086E26A /* FormatUtils.m */; };
+		04A2328421878C020086E26A /* TrafficViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2328221878C020086E26A /* TrafficViewController.m */; };
+		04A2328A21878D1F0086E26A /* UIExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2328821878D1F0086E26A /* UIExampleViewController.m */; };
+		04A2328B21878D1F0086E26A /* UIExampleViewController+SegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2328921878D1F0086E26A /* UIExampleViewController+SegmentedControl.m */; };
+		04A2329221878D520086E26A /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2328D21878D520086E26A /* HeaderView.m */; };
+		04A2329321878D520086E26A /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A2328E21878D520086E26A /* HeaderView.xib */; };
+		04A2329421878D520086E26A /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2329121878D520086E26A /* UIView+Toast.m */; };
+		04A2329B218791970086E26A /* MyCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A23296218791960086E26A /* MyCalloutView.xib */; };
+		04A2329C218791970086E26A /* MapAnnotationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A23299218791960086E26A /* MapAnnotationsViewController.m */; };
+		04A2329D218791970086E26A /* MyCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2329A218791960086E26A /* MyCalloutView.m */; };
+		04A2329F218793D60086E26A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2329E218793D60086E26A /* MapKit.framework */; };
+		04A232A1218793DE0086E26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A232A0218793DE0086E26A /* Foundation.framework */; };
+		04A232A3218793E50086E26A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A232A2218793E50086E26A /* UIKit.framework */; };
+		04A232A52188E5CF0086E26A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A232A42188E5CE0086E26A /* CoreLocation.framework */; };
+		3D35D054C48EE9F50928591D /* Pods_DemoAreaAppGuideTomTom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FFFF986B23A5C8B5B5F683 /* Pods_DemoAreaAppGuideTomTom.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A2324B2184D4110086E26A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A2322E2184D40A0086E26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A232352184D40A0086E26A;
+			remoteInfo = DemoAreaAppGuideTomTom;
+		};
+		04A232562184D4110086E26A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A2322E2184D40A0086E26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A232352184D40A0086E26A;
+			remoteInfo = DemoAreaAppGuideTomTom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A232362184D40A0086E26A /* DemoAreaAppGuideTomTom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAreaAppGuideTomTom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A232392184D40B0086E26A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04A2323B2184D40B0086E26A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04A2323E2184D40B0086E26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A232402184D4110086E26A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A232432184D4110086E26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A232452184D4110086E26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A2324A2184D4110086E26A /* DemoAreaAppGuideTomTomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAreaAppGuideTomTomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A2324E2184D4110086E26A /* DemoAreaAppGuideTomTomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAreaAppGuideTomTomTests.swift; sourceTree = "<group>"; };
+		04A232502184D4110086E26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A232552184D4110086E26A /* DemoAreaAppGuideTomTomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAreaAppGuideTomTomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A232592184D4110086E26A /* DemoAreaAppGuideTomTomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAreaAppGuideTomTomUITests.swift; sourceTree = "<group>"; };
+		04A2325B2184D4110086E26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A232672184D7280086E26A /* pingimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pingimage.png; sourceTree = "<group>"; };
+		04A232692185718E0086E26A /* if_Map_-_Location_Solid_Style_19_2216355.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "if_Map_-_Location_Solid_Style_19_2216355.png"; sourceTree = "<group>"; };
+		04A23271218788930086E26A /* DemoAreaAppGuideTomTom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoAreaAppGuideTomTom-Bridging-Header.h"; sourceTree = "<group>"; };
+		04A23272218788940086E26A /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		04A23273218788940086E26A /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		04A2327521878A270086E26A /* SearchAlongTheRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchAlongTheRouteViewController.h; sourceTree = "<group>"; };
+		04A2327621878A270086E26A /* SearchAlongTheRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchAlongTheRouteViewController.m; sourceTree = "<group>"; };
+		04A2327821878B4D0086E26A /* UIConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConst.h; sourceTree = "<group>"; };
+		04A2327921878B4D0086E26A /* Locations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locations.h; sourceTree = "<group>"; };
+		04A2327A21878B4E0086E26A /* ProgressUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressUtil.h; sourceTree = "<group>"; };
+		04A2327B21878B4E0086E26A /* ProgressUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressUtil.m; sourceTree = "<group>"; };
+		04A2327C21878B4E0086E26A /* FormatUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormatUtils.m; sourceTree = "<group>"; };
+		04A2327D21878B4E0086E26A /* OverlayDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayDrawing.h; sourceTree = "<group>"; };
+		04A2327E21878B4E0086E26A /* FormatUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatUtils.h; sourceTree = "<group>"; };
+		04A2328221878C020086E26A /* TrafficViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficViewController.m; sourceTree = "<group>"; };
+		04A2328321878C020086E26A /* TrafficViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficViewController.h; sourceTree = "<group>"; };
+		04A2328621878D1F0086E26A /* UIExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIExampleViewController.h; sourceTree = "<group>"; };
+		04A2328721878D1F0086E26A /* UIExampleViewController+SegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIExampleViewController+SegmentedControl.h"; sourceTree = "<group>"; };
+		04A2328821878D1F0086E26A /* UIExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIExampleViewController.m; sourceTree = "<group>"; };
+		04A2328921878D1F0086E26A /* UIExampleViewController+SegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIExampleViewController+SegmentedControl.m"; sourceTree = "<group>"; };
+		04A2328D21878D520086E26A /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		04A2328E21878D520086E26A /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		04A2328F21878D520086E26A /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		04A2329021878D520086E26A /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		04A2329121878D520086E26A /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		04A23296218791960086E26A /* MyCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCalloutView.xib; sourceTree = "<group>"; };
+		04A23297218791960086E26A /* MapAnnotationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotationsViewController.h; sourceTree = "<group>"; };
+		04A23298218791960086E26A /* MyCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalloutView.h; sourceTree = "<group>"; };
+		04A23299218791960086E26A /* MapAnnotationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotationsViewController.m; sourceTree = "<group>"; };
+		04A2329A218791960086E26A /* MyCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalloutView.m; sourceTree = "<group>"; };
+		04A2329E218793D60086E26A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04A232A0218793DE0086E26A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04A232A2218793E50086E26A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04A232A42188E5CE0086E26A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14A546277C1867AEDAD16EAC /* Pods-DemoAreaAppGuideTomTom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAreaAppGuideTomTom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoAreaAppGuideTomTom/Pods-DemoAreaAppGuideTomTom.debug.xcconfig"; sourceTree = "<group>"; };
+		16FFFF986B23A5C8B5B5F683 /* Pods_DemoAreaAppGuideTomTom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAreaAppGuideTomTom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEEA429C1E51A99CC4355A4 /* Pods-DemoAreaAppGuideTomTom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAreaAppGuideTomTom.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoAreaAppGuideTomTom/Pods-DemoAreaAppGuideTomTom.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A232332184D40A0086E26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A232A52188E5CF0086E26A /* CoreLocation.framework in Frameworks */,
+				04A232A3218793E50086E26A /* UIKit.framework in Frameworks */,
+				04A232A1218793DE0086E26A /* Foundation.framework in Frameworks */,
+				04A2329F218793D60086E26A /* MapKit.framework in Frameworks */,
+				3D35D054C48EE9F50928591D /* Pods_DemoAreaAppGuideTomTom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A232472184D4110086E26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A232522184D4110086E26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A2322D2184D40A0086E26A = {
+			isa = PBXGroup;
+			children = (
+				04A232382184D40A0086E26A /* DemoAreaAppGuideTomTom */,
+				04A2324D2184D4110086E26A /* DemoAreaAppGuideTomTomTests */,
+				04A232582184D4110086E26A /* DemoAreaAppGuideTomTomUITests */,
+				04A232372184D40A0086E26A /* Products */,
+				E9DE68342F6A1E8349B09B8B /* Pods */,
+				F0031147B2FEBDC5D4ACA1DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A232372184D40A0086E26A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A232362184D40A0086E26A /* DemoAreaAppGuideTomTom.app */,
+				04A2324A2184D4110086E26A /* DemoAreaAppGuideTomTomTests.xctest */,
+				04A232552184D4110086E26A /* DemoAreaAppGuideTomTomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A232382184D40A0086E26A /* DemoAreaAppGuideTomTom */ = {
+			isa = PBXGroup;
+			children = (
+				04A2328C21878D520086E26A /* View */,
+				04A2328521878D1F0086E26A /* ExampleViewController */,
+				04A2328121878C020086E26A /* TrafficViewController */,
+				04A2327E21878B4E0086E26A /* FormatUtils.h */,
+				04A2327C21878B4E0086E26A /* FormatUtils.m */,
+				04A2327921878B4D0086E26A /* Locations.h */,
+				04A2327D21878B4E0086E26A /* OverlayDrawing.h */,
+				04A2327A21878B4E0086E26A /* ProgressUtil.h */,
+				04A2327B21878B4E0086E26A /* ProgressUtil.m */,
+				04A2327821878B4D0086E26A /* UIConst.h */,
+				04A2327521878A270086E26A /* SearchAlongTheRouteViewController.h */,
+				04A2327621878A270086E26A /* SearchAlongTheRouteViewController.m */,
+				04A23273218788940086E26A /* LocationManager.h */,
+				04A23272218788940086E26A /* LocationManager.m */,
+				04A232392184D40B0086E26A /* AppDelegate.swift */,
+				04A2323B2184D40B0086E26A /* ViewController.swift */,
+				04A2323D2184D40B0086E26A /* Main.storyboard */,
+				04A232402184D4110086E26A /* Assets.xcassets */,
+				04A232692185718E0086E26A /* if_Map_-_Location_Solid_Style_19_2216355.png */,
+				04A232672184D7280086E26A /* pingimage.png */,
+				04A232422184D4110086E26A /* LaunchScreen.storyboard */,
+				04A232452184D4110086E26A /* Info.plist */,
+				04A23271218788930086E26A /* DemoAreaAppGuideTomTom-Bridging-Header.h */,
+			);
+			path = DemoAreaAppGuideTomTom;
+			sourceTree = "<group>";
+		};
+		04A2324D2184D4110086E26A /* DemoAreaAppGuideTomTomTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A2324E2184D4110086E26A /* DemoAreaAppGuideTomTomTests.swift */,
+				04A232502184D4110086E26A /* Info.plist */,
+			);
+			path = DemoAreaAppGuideTomTomTests;
+			sourceTree = "<group>";
+		};
+		04A232582184D4110086E26A /* DemoAreaAppGuideTomTomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A232592184D4110086E26A /* DemoAreaAppGuideTomTomUITests.swift */,
+				04A2325B2184D4110086E26A /* Info.plist */,
+			);
+			path = DemoAreaAppGuideTomTomUITests;
+			sourceTree = "<group>";
+		};
+		04A2328121878C020086E26A /* TrafficViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04A2328221878C020086E26A /* TrafficViewController.m */,
+				04A2328321878C020086E26A /* TrafficViewController.h */,
+			);
+			path = TrafficViewController;
+			sourceTree = "<group>";
+		};
+		04A2328521878D1F0086E26A /* ExampleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04A2328621878D1F0086E26A /* UIExampleViewController.h */,
+				04A2328721878D1F0086E26A /* UIExampleViewController+SegmentedControl.h */,
+				04A2328821878D1F0086E26A /* UIExampleViewController.m */,
+				04A2328921878D1F0086E26A /* UIExampleViewController+SegmentedControl.m */,
+			);
+			path = ExampleViewController;
+			sourceTree = "<group>";
+		};
+		04A2328C21878D520086E26A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A23295218791960086E26A /* MapAnnotationsViewController */,
+				04A2328D21878D520086E26A /* HeaderView.m */,
+				04A2328E21878D520086E26A /* HeaderView.xib */,
+				04A2328F21878D520086E26A /* UIView+Toast.h */,
+				04A2329021878D520086E26A /* HeaderView.h */,
+				04A2329121878D520086E26A /* UIView+Toast.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A23295218791960086E26A /* MapAnnotationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04A23296218791960086E26A /* MyCalloutView.xib */,
+				04A23297218791960086E26A /* MapAnnotationsViewController.h */,
+				04A23298218791960086E26A /* MyCalloutView.h */,
+				04A23299218791960086E26A /* MapAnnotationsViewController.m */,
+				04A2329A218791960086E26A /* MyCalloutView.m */,
+			);
+			path = MapAnnotationsViewController;
+			sourceTree = "<group>";
+		};
+		E9DE68342F6A1E8349B09B8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14A546277C1867AEDAD16EAC /* Pods-DemoAreaAppGuideTomTom.debug.xcconfig */,
+				6AEEA429C1E51A99CC4355A4 /* Pods-DemoAreaAppGuideTomTom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0031147B2FEBDC5D4ACA1DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A232A42188E5CE0086E26A /* CoreLocation.framework */,
+				04A232A2218793E50086E26A /* UIKit.framework */,
+				04A232A0218793DE0086E26A /* Foundation.framework */,
+				04A2329E218793D60086E26A /* MapKit.framework */,
+				16FFFF986B23A5C8B5B5F683 /* Pods_DemoAreaAppGuideTomTom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A232352184D40A0086E26A /* DemoAreaAppGuideTomTom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A2325E2184D4110086E26A /* Build configuration list for PBXNativeTarget "DemoAreaAppGuideTomTom" */;
+			buildPhases = (
+				423F985FDC5818C5E066FAF0 /* [CP] Check Pods Manifest.lock */,
+				04A232322184D40A0086E26A /* Sources */,
+				04A232332184D40A0086E26A /* Frameworks */,
+				04A232342184D40A0086E26A /* Resources */,
+				8947A2DC0A72F58EA896C696 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoAreaAppGuideTomTom;
+			productName = DemoAreaAppGuideTomTom;
+			productReference = 04A232362184D40A0086E26A /* DemoAreaAppGuideTomTom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A232492184D4110086E26A /* DemoAreaAppGuideTomTomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A232612184D4110086E26A /* Build configuration list for PBXNativeTarget "DemoAreaAppGuideTomTomTests" */;
+			buildPhases = (
+				04A232462184D4110086E26A /* Sources */,
+				04A232472184D4110086E26A /* Frameworks */,
+				04A232482184D4110086E26A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A2324C2184D4110086E26A /* PBXTargetDependency */,
+			);
+			name = DemoAreaAppGuideTomTomTests;
+			productName = DemoAreaAppGuideTomTomTests;
+			productReference = 04A2324A2184D4110086E26A /* DemoAreaAppGuideTomTomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A232542184D4110086E26A /* DemoAreaAppGuideTomTomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A232642184D4110086E26A /* Build configuration list for PBXNativeTarget "DemoAreaAppGuideTomTomUITests" */;
+			buildPhases = (
+				04A232512184D4110086E26A /* Sources */,
+				04A232522184D4110086E26A /* Frameworks */,
+				04A232532184D4110086E26A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A232572184D4110086E26A /* PBXTargetDependency */,
+			);
+			name = DemoAreaAppGuideTomTomUITests;
+			productName = DemoAreaAppGuideTomTomUITests;
+			productReference = 04A232552184D4110086E26A /* DemoAreaAppGuideTomTomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A2322E2184D40A0086E26A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mac software";
+				TargetAttributes = {
+					04A232352184D40A0086E26A = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					04A232492184D4110086E26A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04A232352184D40A0086E26A;
+					};
+					04A232542184D4110086E26A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04A232352184D40A0086E26A;
+					};
+				};
+			};
+			buildConfigurationList = 04A232312184D40A0086E26A /* Build configuration list for PBXProject "DemoAreaAppGuideTomTom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A2322D2184D40A0086E26A;
+			productRefGroup = 04A232372184D40A0086E26A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A232352184D40A0086E26A /* DemoAreaAppGuideTomTom */,
+				04A232492184D4110086E26A /* DemoAreaAppGuideTomTomTests */,
+				04A232542184D4110086E26A /* DemoAreaAppGuideTomTomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A232342184D40A0086E26A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A232442184D4110086E26A /* LaunchScreen.storyboard in Resources */,
+				04A2326A2185718E0086E26A /* if_Map_-_Location_Solid_Style_19_2216355.png in Resources */,
+				04A2329B218791970086E26A /* MyCalloutView.xib in Resources */,
+				04A232682184D7280086E26A /* pingimage.png in Resources */,
+				04A2329321878D520086E26A /* HeaderView.xib in Resources */,
+				04A232412184D4110086E26A /* Assets.xcassets in Resources */,
+				04A2323F2184D40B0086E26A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A232482184D4110086E26A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A232532184D4110086E26A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		423F985FDC5818C5E066FAF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoAreaAppGuideTomTom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8947A2DC0A72F58EA896C696 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoAreaAppGuideTomTom/Pods-DemoAreaAppGuideTomTom-frameworks.sh",
+				"${PODS_ROOT}/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic.framework",
+				"${PODS_ROOT}/TomTomOnlineUtils/TomTomOnlineUtils/TomTomOnlineUtils.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMaps.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKRouting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKSearch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKTraffic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineUtils.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoAreaAppGuideTomTom/Pods-DemoAreaAppGuideTomTom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A232322184D40A0086E26A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A2329C218791970086E26A /* MapAnnotationsViewController.m in Sources */,
+				04A2327721878A270086E26A /* SearchAlongTheRouteViewController.m in Sources */,
+				04A2329D218791970086E26A /* MyCalloutView.m in Sources */,
+				04A2329221878D520086E26A /* HeaderView.m in Sources */,
+				04A2328B21878D1F0086E26A /* UIExampleViewController+SegmentedControl.m in Sources */,
+				04A2327F21878B4E0086E26A /* ProgressUtil.m in Sources */,
+				04A23274218788940086E26A /* LocationManager.m in Sources */,
+				04A2329421878D520086E26A /* UIView+Toast.m in Sources */,
+				04A2323C2184D40B0086E26A /* ViewController.swift in Sources */,
+				04A2328021878B4E0086E26A /* FormatUtils.m in Sources */,
+				04A2328A21878D1F0086E26A /* UIExampleViewController.m in Sources */,
+				04A2328421878C020086E26A /* TrafficViewController.m in Sources */,
+				04A2323A2184D40B0086E26A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A232462184D4110086E26A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A2324F2184D4110086E26A /* DemoAreaAppGuideTomTomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A232512184D4110086E26A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A2325A2184D4110086E26A /* DemoAreaAppGuideTomTomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A2324C2184D4110086E26A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A232352184D40A0086E26A /* DemoAreaAppGuideTomTom */;
+			targetProxy = 04A2324B2184D4110086E26A /* PBXContainerItemProxy */;
+		};
+		04A232572184D4110086E26A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A232352184D40A0086E26A /* DemoAreaAppGuideTomTom */;
+			targetProxy = 04A232562184D4110086E26A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A2323D2184D40B0086E26A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A2323E2184D40B0086E26A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A232422184D4110086E26A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A232432184D4110086E26A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A2325C2184D4110086E26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoAreaAppGuideTomTom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A2325D2184D4110086E26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoAreaAppGuideTomTom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A2325F2184D4110086E26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A546277C1867AEDAD16EAC /* Pods-DemoAreaAppGuideTomTom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = DemoAreaAppGuideTomTom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myApp.DemoAreaAppGuideTomTom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoAreaAppGuideTomTom/DemoAreaAppGuideTomTom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A232602184D4110086E26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEEA429C1E51A99CC4355A4 /* Pods-DemoAreaAppGuideTomTom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = DemoAreaAppGuideTomTom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myApp.DemoAreaAppGuideTomTom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoAreaAppGuideTomTom/DemoAreaAppGuideTomTom-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04A232622184D4110086E26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAreaAppGuideTomTomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myApp.DemoAreaAppGuideTomTomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAreaAppGuideTomTom.app/DemoAreaAppGuideTomTom";
+			};
+			name = Debug;
+		};
+		04A232632184D4110086E26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAreaAppGuideTomTomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myApp.DemoAreaAppGuideTomTomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAreaAppGuideTomTom.app/DemoAreaAppGuideTomTom";
+			};
+			name = Release;
+		};
+		04A232652184D4110086E26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAreaAppGuideTomTomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myApp.DemoAreaAppGuideTomTomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoAreaAppGuideTomTom;
+			};
+			name = Debug;
+		};
+		04A232662184D4110086E26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAreaAppGuideTomTomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myApp.DemoAreaAppGuideTomTomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoAreaAppGuideTomTom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A232312184D40A0086E26A /* Build configuration list for PBXProject "DemoAreaAppGuideTomTom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A2325C2184D4110086E26A /* Debug */,
+				04A2325D2184D4110086E26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A2325E2184D4110086E26A /* Build configuration list for PBXNativeTarget "DemoAreaAppGuideTomTom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A2325F2184D4110086E26A /* Debug */,
+				04A232602184D4110086E26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A232612184D4110086E26A /* Build configuration list for PBXNativeTarget "DemoAreaAppGuideTomTomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A232622184D4110086E26A /* Debug */,
+				04A232632184D4110086E26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A232642184D4110086E26A /* Build configuration list for PBXNativeTarget "DemoAreaAppGuideTomTomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A232652184D4110086E26A /* Debug */,
+				04A232662184D4110086E26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A2322E2184D40A0086E26A /* Project object */;
+}

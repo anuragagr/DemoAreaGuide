@@ -1,0 +1,6 @@
+framework module TomTomOnlineSDKTraffic {
+  umbrella header "TomTomOnlineSDKTraffic.h"
+
+  export *
+  module * { export * }
+}
